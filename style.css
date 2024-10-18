@@ -41,7 +41,7 @@ html,body{
 h1 span{
     display: inline-block;
 }
-.nav{
+.nav1{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,24 +110,22 @@ padding: 30px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 15vw;
     background-color: black;
     color: white;
-    height: 50px;
-    overflow: hidden;
+    height: 4vw;
 }
 .midnav a{
     color: white;
     text-decoration: none;
     font-weight: 100;
-    font-size: 13px;
+    font-size: .8vw;
     text-transform: uppercase;
-width: 100%;
-height: 100%;
+
 }
 .midnav i{
     font-weight:lighter;
- margin-right: 10px;
+ margin-right: 1vw;
 }
 .menu a{
     background-color: rgb(255, 255, 255);
@@ -169,7 +167,7 @@ height: 100%;
 }
 .picnav{
     height: 400px;
-    width: 85%;
+    width: 85vw;
     margin: auto;
     background-size: cover;
     display: flex;
@@ -198,14 +196,13 @@ height: 100%;
 text-align: center;
 text-transform: uppercase;
 font-weight: 300;
-font-size: 30px;
-}
+font-size: 2.3vw;
 
+}
 
 .swiper {
     width: 95%;
     height: 100%;
-  
   }
 
   .swiper-slide {
@@ -230,7 +227,7 @@ font-size: 30px;
     width: 90%;
     height: 300px;
     margin: auto;
-    flex-wrap: wrap;
+ 
   }
   .swiper-button-next
 {
@@ -241,7 +238,6 @@ font-size: 30px;
     opacity: 0.8;
     cursor: pointer;
 }
-
 .img3{
 display: flex;
 align-items: center;
@@ -249,6 +245,7 @@ justify-content: space-between;
 width: 90%;
 margin: auto;
 margin-top: 70px;
+flex-wrap: wrap;
 }
 #im1{
     height: 350px;
@@ -271,18 +268,17 @@ margin-top: 70px;
 .cont{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 90%;
+    width: 90vw;
     margin: auto;
     margin-bottom: 50px;
-    /* background-color: aquamarine; */
 }
 .c1{
     height: 100%;
-    width: 22%;
+   width: 22%;
+ 
 }
 .cont img{
-    height: 300px;
+    height: 20vw;
     width: 100%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -291,30 +287,32 @@ margin-top: 70px;
     text-decoration: none;
     color: black;
     width: 100%;
-
+font-family: maybe;
 
 }
 .cont h3{
     text-align: center;
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: lighter;
+    font-family: maybe;
 }
 .cont h2{
-    font-size: 17px;
+    font-size: 1.2vw;
     text-align: center;
     margin-top: 10px;
     font-weight: 200;
+    font-family: maybe;
 }
 .gift{
-    padding: 10px;
+    padding: 1vw;
     border: none;
-    margin-left: 40%;
-    margin-top: 20px;
+    margin-left: 7.2vw;
+    margin-top: 2vw;
     background-color: rgb(228, 54, 54);
     color: white;
     transition-duration: 1s;
     cursor: pointer;
-  
+    font-size: .9vw;
 }
 .deals{
     text-align: center;
@@ -409,6 +407,7 @@ border-radius: 10px;
     width: 90%;
     margin: auto;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .footm h3{
 font-size: 15px;
@@ -444,16 +443,86 @@ line-height: 40px;
     align-items: center;
     justify-content: space-between;
     background-color: aliceblue;
-    height: 60px;
-    padding: 10px 60px;
+    height: 4vh;
+    padding: 2vw 2vw;
     font-family: maybe;
 }
 .footer a{
     text-decoration: none;
     color: black;
+    font-size: 1.2vw;
 }
 .fot{
     display: flex;
     gap: 30px;
-    font-size: 20px;
+    font-size: 1.5vw;
+}
+.res_nav{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    font-size: 2.3vw;
+}
+.img3{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    justify-content: center;
+
+}
+.res_navr{
+    display: flex;
+    gap: 1vw;
+}
+@media (max-width :992px) {
+    .midnav{
+        display: none;
+    }
+    .nav1{
+        display: none;
+    }
+    .unav{
+        display :none;
+    }
+    .res_nav{
+        display: flex;
+    }
+    .footer{
+display: flex;
+flex-direction: column;      
+        height: 15vw;
+        background-color: #C0CCD9;
+    }
+    .footer a {
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+    .foot{
+        display: block;
+    }
+    .fot i {
+        font-size: 4vw;
+    }
+    .fot{
+        display: flex;
+        gap: 10px;
+    }
+    .inner{
+        margin:  3vw;
+    }
+   .inner h2{
+    padding: 0;
+   }
+   .inner h6{
+    margin-top: 0;
+   }
+   .inner input{
+    margin-top: 0;
+   }
+   .inner h3{
+font-size: 4.5vw;
+   }
+  
 }
