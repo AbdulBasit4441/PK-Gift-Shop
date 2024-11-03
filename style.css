@@ -34,7 +34,7 @@ html,body{
     align-items: center;
 }
 .container h1{
-    font-size: 60px;
+    font-size: 3vw;
     
 }
 
@@ -488,6 +488,7 @@ line-height: 40px;
     }
     .res_nav{
         display: flex;
+        font-size: 5vw;
     }
     .footer{
 display: flex;
@@ -524,5 +525,19 @@ flex-direction: column;
    .inner h3{
 font-size: 4.5vw;
    }
+   .container h1{
+    font-size: 10vw;
+}
+.head{
+    font-size: 5vw;
+}
+.pa  {
+    font-size: 3.5vw;
+    margin-top: 6vw;
+    font-weight: 300;
+}
+.deals{
+    font-size: 5vw;
+}
   
 }
